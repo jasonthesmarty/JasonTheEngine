@@ -7,16 +7,23 @@
 #ifndef PCH_H
 #define PCH_H
 
-#include <iostream>
-#include <vector>
+#include <algorithm>
 #include <array>
-#include <string>
+#include <chrono>
 #include <fstream>
-#include <stdexcept>
+#include <iostream>
 #include <memory>
+#include <optional>
+#include <set>
+#include <stdexcept>
+#include <string>
+#include <string_view>
+#include <vector>
 
+#define GLFW_INCLUDE_VULKAN
 #include <GLFW/glfw3.h>
-#include <vulkan/vulkan.hpp>
 #include <glm/glm.hpp>
+#include <shaderc/shaderc.hpp>
 
 #endif //PCH_H
+
