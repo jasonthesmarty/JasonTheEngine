@@ -47,3 +47,6 @@
 *.tlog
 x64/Debug/JasonTheEngine.vcxproj.FileListAbsolute.txt
 x64/Release/JasonTheEngine.vcxproj.FileListAbsolute.txt
+*.db-shm
+*.db-wal
+*.opendb
