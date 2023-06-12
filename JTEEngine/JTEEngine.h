@@ -1162,29 +1162,3 @@ namespace JTEEngine {
 	};
 
 }
-
-
-/*
-		class JTEDrawTest {
-		private:
-		
-			void recordCommandBuffer(VkCommandBuffer commandBuffer, uint32_t imageIndex, VkRenderPass renderPass, std::vector<VkFramebuffer> swapChainFramebuffers, VkPipeline graphicsPipeline, VkExtent2D swapChainExtent);
-		
-			void createBuffer(VkDeviceSize size, VkBufferUsageFlags usage, VkMemoryPropertyFlags properties, VkBuffer& buffer, VkDeviceMemory& bufferMemory, VkDevice device, VkPhysicalDevice physicalDevice);
-			void copyBuffer(VkBuffer srcBuffer, VkBuffer dstBuffer, VkDeviceSize size, VkCommandPool commandPool, VkDevice device, VkQueue graphicsQueue);
-			uint32_t findMemoryType(uint32_t typeFilter, VkMemoryPropertyFlags properties, VkPhysicalDevice physicalDevice);
-		
-		public:
-		
-			JTEDrawTest();
-		
-			//void drawFrame(JTEVulkan::JTEVulkanObjects& objs);
-			void changeColor(JTEVulkan::JTEVulkanObjects& objs);
-			void createVertexBuffer(JTEVulkan::JTEVulkanObjects& objs);
-			void createIndexBuffer(JTEVulkan::JTEVulkanObjects& objs);
-		
-			void terminate(JTEVulkan::JTEVulkanObjects& objs);
-		};
-		*/
-	
-
