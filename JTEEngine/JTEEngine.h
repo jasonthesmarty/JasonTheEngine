@@ -531,7 +531,7 @@ namespace JTEEngine {
 		template <typename T>
 		std::string string(T value);
 
-#include "JTEEngine/Standard/JTEStandard.ipp"
+#include "JTEEngine/Standard/JTEUtilities.ipp"
 
 	}
 
