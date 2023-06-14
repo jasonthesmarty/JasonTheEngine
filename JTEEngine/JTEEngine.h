@@ -1,6 +1,22 @@
 #pragma once
 
-#include "pch.h"
+#include <algorithm>
+#include <array>
+#include <chrono>
+#include <fstream>
+#include <iostream>
+#include <memory>
+#include <optional>
+#include <set>
+#include <stdexcept>
+#include <string>
+#include <string_view>
+#include <vector>
+
+#define GLFW_INCLUDE_VULKAN
+#include <GLFW/glfw3.h>
+#include <glm/glm.hpp>
+#include <shaderc/shaderc.hpp>
 
 
 #define JTE_MAJOR_VERSION 0
@@ -531,7 +547,7 @@ namespace JTEEngine {
 		template <typename T>
 		std::string string(T value);
 
-#include "JTEEngine/Standard/JTEUtilities.ipp"
+#include "../JTEEngine/Standard/JTEUtilities.ipp"
 
 	}
 

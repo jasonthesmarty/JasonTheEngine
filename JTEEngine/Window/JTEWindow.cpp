@@ -1,5 +1,4 @@
-#include "pch.h"
-#include "JTEEngine/JTEEngine.h"
+#include "../JTEEngine.h"
 
 
 namespace JTEEngine {
@@ -94,11 +93,11 @@ namespace JTEEngine {
 		return { static_cast<JTEuint>(width), static_cast<JTEuint>(height) };
 	}
 
+	//===== Setters =====//
+
 	void JTEWindow::setTitle(std::string_view title) {
 		glfwSetWindowTitle(m_Window, title.data());
 	}
-
-	//===== Setters =====//
 
 	void JTEWindow::setDimensions(JTEuint width, JTEuint height) {
 		glfwSetWindowSize(this->m_Window, width, height);

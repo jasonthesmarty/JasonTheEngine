@@ -1,4 +1,4 @@
-#include "pch.h"
-#include "JTEEngine/JTEEngine.h"
+#include "../JTEEngine.h"
+
 
 namespace JTEEngine {}
